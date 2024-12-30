@@ -12,7 +12,8 @@ export default {
       },
       fontFamily: {
         helvetica: ['"Helvetica Neue"', 'Arial', 'sans-serif'],
-        sf: ['"SF Pro"', '-apple-system', 'BlinkMacSystemFont', '"Helvetica Neue"', 'Arial', 'sans-serif'], // Example for testing
+        sf: ['"SF Pro"', '-apple-system', 'BlinkMacSystemFont', '"Helvetica Neue"', 'Arial', 'sans-serif'], 
+        git:['"Inter"', '"GitHub Sans"', '"Helvetica Neue"', 'Aria', 'sans-serif'],
       },
     },
   },
