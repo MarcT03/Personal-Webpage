@@ -8,6 +8,7 @@ const App = () => {
         <div className="bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Greeting />
+          <Tech />
           
         </div>
     </div>
