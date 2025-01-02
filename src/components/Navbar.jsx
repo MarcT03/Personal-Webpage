@@ -7,8 +7,8 @@ const Navbar = () => {
     const {darkMode, toggleDarkMode} = useDarkMode();
     const [active, setActive] = useState('');
     return (
-        <nav className={`sm:px-16 px-6 w-full flex items-center py-5 fixed top-0 z-20 `}>
-            <div className="w-full flex justify-center items-center max-w-7xl mx-auto">
+        <nav className={`sm:px-16 px-6 w-full flex items-center py-5 fixed top-0 z-20 bg-light-bg dark:bg-dark-bg  `}>
+            <div className="w-full flex justify-evenly items-center max-w-7xl mx-auto">
                
                 <ul className="list-none hidden sm:flex flex-row gap-20">
                     <li>
@@ -47,16 +47,17 @@ const Navbar = () => {
                             Contact
                         </Link>
                     </li>
-                    <button
+                    
+                </ul>
+                
+            </div>
+            <button
                     onClick={toggleDarkMode}
-                    className=" text-gray-800 dark:text-gray-200 rounded-lg transition-colors darkMode:"
+                    className=" text-gray-800 dark:text-gray-200 rounded-lg transition-colors  "
                 >
                     {darkMode ? "☀️" : "🌙"}
                 </button>
-                </ul>
 
-                
-            </div>
         </nav>
     )
 }
